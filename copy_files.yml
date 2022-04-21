@@ -1,0 +1,6 @@
+---
+- name: Creating bunch of files
+  hosts: all
+  tasks:
+    - name: Creating files
+      shell: "touch /tmp/{file1,file2,fil3"
